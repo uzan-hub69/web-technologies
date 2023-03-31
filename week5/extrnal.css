@@ -1,0 +1,42 @@
+*{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    background-color: WHITE;
+    color: blue;
+    font-family: Pacifico;
+    /* font-size: 60px; */
+    
+}
+.p1{
+    background-color:blue;
+    color: white;
+    /* font-size: 30px; */
+    font-style: italic;
+}
+.p2{
+    background-color:green;
+    color: aqua;
+    /* font-size: 30px; */
+    font-style: italic;
+}
+.p3{background-color:orange;
+    color: royalblue;
+    /* font-size: 30px; */
+    font-style: italic;
+}
+.p3:hover{
+    background-color: red;
+    color: blue;
+}
+
+}
+img{
+    width: 1000px;
+    height:500px
+}
+
+   img[alt]{
+    color: blue;
+   }
