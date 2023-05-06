@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(109, 151, 115);
+}
+.flex-container{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;   
+}
+.images{
+    padding-top: 20px;
+    position: relative;
+    left: 25%;
+}

@@ -1,0 +1,33 @@
+h1{
+    text-transform: uppercase;
+    color: bisque;
+    background-color: chocolate;
+    font-size: 60px;
+}
+.parent{
+    width:100px;
+}
+img{
+    width: 500px;
+    height: auto;
+}
+.son{
+    width: 50px;
+    height:left;
+}
+.daughter{
+    width: 50px;
+    float: right;
+}
+/*mobiles devices*/
+media ( min-width:320px)and (max-width:480px) {
+    
+}
+/*tablets devices*/
+media ( min-width:481px)and (max-width:768px) {
+    
+}
+/*laptop devices*/
+media ( min-width:769px)and (max-width:1034px) {
+    
+}

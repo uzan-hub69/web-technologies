@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        .parent{
+            width: 80%;
+            height:1000vh;
+            background-color: lawngreen;
+            border: 2px dotted orangered;
+        }
+        .box{
+            width:300px;
+            height: 300vh;
+            border: 1px solid purple;
+        }
+        .box1{
+            background-color:blue;
+            position: static;
+            
+        }
+        .box2{
+            background-color: azure;
+            position: relative;
+            left: 10px;
+            top: 100px;
+        }
+        .box3{
+            background-color: orange;
+            position: absolute;
+            left: 10px;
+        }
+        .box4{
+            background-color: brown;
+            position: fixed;
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "parent">
+        <div class= "box box1">i am static</div>
+        <div class= "box box2">i am relative</div>
+        <div class= "box box3">i am absolute</div>
+        <div class= "box box4">i am fixed</div>
+        <div class= "box box5">i am sticky</div>
+    </div>
+</body>
+</html>
